@@ -1,0 +1,28 @@
+Enter the number of string you want to enter
+3
+Enter a string
+cat
+Enter a string
+dog
+Enter a string
+zebra
+Here is a list of strings
+(cat, dog, zebra)
+
+Enter the number of string you want to enter
+3
+Enter a string
+manhattan
+Enter a string
+brooklyn
+Enter a string
+queens
+Here is another list of strings
+(manhattan, brooklyn, queens)
+
+After sub string, here are the strings 
+(cat, dog, zebr)
+
+After append, here are the size of each string
+(3, 3, 5, 9, 8, 6)
+

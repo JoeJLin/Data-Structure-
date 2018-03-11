@@ -1,0 +1,29 @@
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:18:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto start4 = chrono::steady_clock::now();
+  ^
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:44:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto end4 = chrono::steady_clock::now();
+  ^
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:45:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto diff4 = end4 - start4;
+  ^
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:48:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto start5 = chrono::steady_clock::now();
+  ^
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:65:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto end5 = chrono::steady_clock::now();
+  ^
+/Users/joe/Documents/C++/CISC 3130/project0/main.cpp:66:3: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  auto diff5 = end5 - start5;
+  ^
+6 warnings generated.
+Undefined symbols for architecture x86_64:
+  "Shopper::Shopper(int)", referenced from:
+      _main in main-261e3c.o
+  "Shopper::Shopper()", referenced from:
+      ods::PriorityQueueSort<Shopper>::sorting() in main-261e3c.o
+      ods::array<Shopper>::array(int) in main-261e3c.o
+  "operator>(Shopper const&, Shopper const&)", referenced from:
+      ods::PriorityQueueSort<Shopper>::sorting() in main-261e3c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
