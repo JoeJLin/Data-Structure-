@@ -1,0 +1,10 @@
+/Users/joe/Documents/C++/CISC 3130/exercise4/main.cpp:11:17: error: expected expression
+    umap.insert({i, i + 1});
+                ^
+/Users/joe/Documents/C++/CISC 3130/exercise4/main.cpp:13:7: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+  for(auto& x : umap)
+      ^
+/Users/joe/Documents/C++/CISC 3130/exercise4/main.cpp:13:15: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+  for(auto& x : umap)
+              ^
+2 warnings and 1 error generated.
